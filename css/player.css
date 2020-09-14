@@ -403,6 +403,18 @@ body {
 .icon-share:hover {
     background-position: -120px -40px;
 }
+.icon-addlist {
+    background-position: -80px -80px;
+}
+.icon-addlist:hover {
+    background-position: -120px -80px;
+}
+.icon-dellist {
+    background-position: -80px -160px;
+}
+.icon-dellist:hover {
+    background-position: -120px -160px;
+}
 
 /* 分享弹窗中的链接框 */
 .share-url {

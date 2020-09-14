@@ -5,6 +5,7 @@
  * 编写：mengkun(https://mkblog.cn)
  * 时间：2018-3-11
  * 特别感谢 @metowolf 提供的 Meting.php
+ * <!-- 加入收藏功能，有什么问题欢迎探讨 www.xptt.com  -->
  *************************************************/
 
 /************ ↓↓↓↓↓ 如果网易云音乐歌曲获取失效，请将你的 COOKIE 放到这儿 ↓↓↓↓↓ ***************/
@@ -43,6 +44,7 @@ require_once('plugns/Meting.php');
 use Metowolf\Meting;
 
 $source = getParam('source', 'netease');  // 歌曲源
+
 $API = new Meting($source);
 
 $API->format(true); // 启用格式化功能
